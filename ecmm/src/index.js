@@ -4,11 +4,15 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 import Cabecalho from './components/common/cabecalho/index';
+import RodaPe from './components/common/rodaPe/index';
+import RodaPe2 from './components/common/rodaPe2/index';
 
 ReactDOM.render(
   <React.StrictMode>
     
   <Cabecalho />
+  <RodaPe />
+  <RodaPe2 />
 
   </React.StrictMode>,
   document.getElementById('root')
