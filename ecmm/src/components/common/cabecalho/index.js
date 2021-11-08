@@ -14,16 +14,20 @@ export default function cabecalho() {
 
                     <div className="botao">
                         <button>
-                            imagem
+                            <img src="/assets/images/VectorFavoritos.png" alt="" />
                         </button>
                     </div>
 
                     <div className="botao">
-                        <button>imagem</button>
+                        <button>
+                            <img src="/assets/images/Sacola.png" alt="" />
+                            </button>
                     </div>
 
                     <div className="botao">
-                        <button>imagem</button>
+                        <button>
+                            <img src="/assets/images/Perfil.png" alt="" />
+                        </button>
                     </div>
                 </div>
             </div>

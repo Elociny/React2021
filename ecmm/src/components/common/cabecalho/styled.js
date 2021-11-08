@@ -36,6 +36,10 @@ const Div = styled.div`
     color: #d9d9d9;
 
     text-align: right;
+
+    background-image: url(/assets/images/lupa.png);
+	  background-repeat: no-repeat;
+    background-position: 220px;
   }
 
   .inp input::placeholder {
