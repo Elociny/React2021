@@ -3,16 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Cabecalho from './components/common/cabecalho/index';
-import RodaPe from './components/common/rodaPe/index';
-import RodaPe2 from './components/common/rodaPe2/index';
+import Home from './pages/pages-usu/home/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    
-  <Cabecalho />
-  <RodaPe />
-  <RodaPe2 />
+  
+  <Home />
 
   </React.StrictMode>,
   document.getElementById('root')
