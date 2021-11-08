@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import Cabecalho from './components/common/cabecalho/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    
+  <Cabecalho />
+
   </React.StrictMode>,
   document.getElementById('root')
 );
