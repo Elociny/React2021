@@ -1,8 +1,45 @@
 import styled from "styled-components"; 
 
 const Div = styled.div`
-    .pai {
-        backgound-color: yellow;
+    .filho {
+        margin: 25px 25px;
+    }
+
+    .categoria {
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 15px;
+    }
+
+    .opcoes {
+        display: flex;
+        flex-direction: row;
+    
+        color: #353535;
+    }
+    
+    .op1 {
+        margin-right: 15px;
+    
+        font-size: 18px;
+        color: #353535;
+    }
+
+    .titulo2 {
+        margin: 15px 0px;
+        font-weight: bolder;
+        font-size: 27px;
+        color: #353535;
+    }
+
+    .row { 
+        display: flex;
+        flex-direction: row;
+    }
+
+    .imagem {
+        cursor: pointer;
     }
 `;
 
