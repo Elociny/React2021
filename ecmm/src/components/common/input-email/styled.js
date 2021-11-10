@@ -6,10 +6,12 @@ const Div = styled.div`
         margin-bottom: 15px;
 
         background-color: #609FA3;
+        color: #d9d9d9;
         border: none;
         border-radius: 15px;
 
         cursor: pointer;
+        outline: none;
     }
 
     .email input::placeholder {

@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Login from './pages/pages-usu/login/index';
+import Cadastrar from './pages/pages-usu/cadastrar/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Login />
+    <Cadastrar />
   </React.StrictMode>,
   document.getElementById('root')
 );

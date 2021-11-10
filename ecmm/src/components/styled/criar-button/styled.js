@@ -1,12 +1,12 @@
 import styled from "styled-components"; 
 
 const Div = styled.div`
-    .cadastrar button {
+    .entrar button {
         border-radius: 18px;
         border: none;
 
-        padding: 10px 50px;
-        margin-top: 20px;
+        padding: 10px 65px;
+        margin-top: 30px;
         margin-bottom: 50px;
 
         color: #d9d9d9;

@@ -29,17 +29,11 @@ const Div = styled.div`
     border-radius: 50px;
     outline: none;
       
-    padding: 10px 15px 10px 150px;
+    padding: 10px 150px 10px 15px;
     margin: 0px 7px;
 
     background-color: #609FA3;
     color: #d9d9d9;
-
-    text-align: right;
-
-    background-image: url(/assets/images/lupa.png);
-	  background-repeat: no-repeat;
-    background-position: 220px;
   }
 
   .inp input::placeholder {
