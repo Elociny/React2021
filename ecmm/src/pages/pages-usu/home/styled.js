@@ -24,6 +24,8 @@ const Div = styled.div`
     
         font-size: 18px;
         color: #353535;
+
+        cursor: pointer;
     }
 
     .titulo2 {
