@@ -6,7 +6,6 @@ const Div = styled.div`
         background-color: #3C6E71;
 
         padding: 25px 35px;
-        margin-top: 50px;
     }
 
     .cima {

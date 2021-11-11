@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Cadastrar from './pages/pages-usu/cadastrar/index';
+import Feminino from './pages/pages-usu/feminino/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cadastrar />
+    <Feminino />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -139,20 +139,20 @@ export default function rodaPe() {
                             </div>
 
                             <div className="c-img">
-                                <div className="img1">
-                                    imagem
+                            <div className="img1">
+                                    <img src="/assets/images/facebook.png" alt="" />
                                 </div>
 
                                 <div className="img1">
-                                    imagem
+                                    <img src="/assets/images/twitter.png" alt="" />
                                 </div>
 
                                 <div className="img1">
-                                    imagem
+                                    <img src="/assets/images/instagram.png" alt="" />
                                 </div>
 
                                 <div className="img1">
-                                    imagem
+                                    <img src="/assets/images/pinterest.png" alt="" />
                                 </div>
                             </div>
                         </div>
@@ -163,20 +163,20 @@ export default function rodaPe() {
                             </div>
                             
                             <div className="c-img">
-                                <div className="img1">
-                                    imagem
+                            <div className="img1">
+                                    <img src="/assets/images/cartao1.png" alt="" />
                                 </div>
 
                                 <div className="img1">
-                                    imagem
+                                    <img src="/assets/images/visa.png" alt="" />
                                 </div>
 
                                 <div className="img1">
-                                    imagem
+                                    <img src="/assets/images/paypal.png" alt="" />
                                 </div>
 
                                 <div className="img1">
-                                    imagem
+                                    <img src="/assets/images/boleto.png" alt="" />
                                 </div>
                             </div>
                         </div>
