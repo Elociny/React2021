@@ -74,6 +74,7 @@ const Div = styled.div`
         text-align:center;
         border: 1px solid;
         border-color: #353535;
+        color: #353535;
         border-radius: 4px;
     
         margin: 5px 5px;

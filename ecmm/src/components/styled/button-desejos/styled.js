@@ -16,6 +16,11 @@ const Div = styled.div`
 
         CURSOR: POINTER;
     }
+
+    .botao button:hover {
+        border-color: #254647;
+        background-color: #d9d9d9;
+    }
 `;
 
 export { Div }
