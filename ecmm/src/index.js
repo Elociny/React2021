@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Conta from './pages/pages-usu/minhaConta/index';
+import ListaDeDesejos from './pages/pages-usu/listaDeDesejos/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Conta />
+    <ListaDeDesejos />
   </React.StrictMode>,
   document.getElementById('root')
 );
