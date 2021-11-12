@@ -4,17 +4,17 @@ export default function produto() {
     return (
         <Div>
             <div className="container">
-                <div class="f1-caixa">
-                    <div class="f1-imagem">
+                <div className="f1-caixa">
+                    <div className="f1-imagem">
                         <img src="/assets/images/camiseta.png" alt=""/>
                     </div>
 
-                    <div class="f1-nome">
+                    <div className="f1-nome">
                         Simples ocasional Camiseta
  
                     </div>
 
-                    <div class="f1-preco">
+                    <div className="f1-preco">
                         R$34,90
                     </div>
                 </div>

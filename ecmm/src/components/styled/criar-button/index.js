@@ -3,7 +3,7 @@ import { Div } from "./styled";
 export default function button() {
     return (
         <Div>
-            <div class="entrar">
+            <div className="entrar">
                 <button>CRIAR</button>
             </div>
         </Div> 

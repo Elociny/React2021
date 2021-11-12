@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import Comprar from './pages/pages-usu/produto/index';
+import Conta from './pages/pages-usu/minhaConta/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Comprar />
+    <Conta />
   </React.StrictMode>,
   document.getElementById('root')
 );
