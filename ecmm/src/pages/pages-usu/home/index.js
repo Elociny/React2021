@@ -1,5 +1,7 @@
 import { Div } from './styled';
 
+import { Link } from 'react-router-dom';
+
 import Cabecalho from '../../../components/common/cabecalho/index';
 import RodaPe from '../../../components/common/rodaPe/index';
 import Quadrado1 from '../../../components/styled/quadrado1/index';
@@ -19,7 +21,9 @@ export default function home() {
 
                             <div class="opcoes">
                                 <div class="op1">
+                                    <Link className="link" to='/feminino'>
                                     Feminino
+                                    </Link>
                                 </div>
 
                                 <div class="op1">

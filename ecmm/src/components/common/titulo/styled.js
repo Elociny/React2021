@@ -9,6 +9,15 @@ const Div = styled.div`
 
       cursor: pointer;
   }
+
+  .link {
+    text-decoration: none;
+    color: #d9d9d9 !important;
+  }
+
+  .link:hover {
+    text-decoration: none;
+  }
 `;
 
 export { Div };

@@ -12,6 +12,15 @@ const Div = styled.div`
         margin-bottom: 15px;
     }
 
+    .link {
+        color: #353535;
+        text-decoration: none;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+    }
+
     .opcoes {
         display: flex;
         flex-direction: row;
