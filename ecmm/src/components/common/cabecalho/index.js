@@ -23,9 +23,11 @@ export default function cabecalho() {
                     </div>
 
                     <div className="botao">
-                        <button>
-                            <img src="/assets/images/Sacola.png" alt="" />
+                        <Link className="link" to='/meus-pedidos'>
+                            <button>
+                                <img src="/assets/images/Sacola.png" alt="" />
                             </button>
+                        </Link>
                     </div>
 
                     <div className="botao">

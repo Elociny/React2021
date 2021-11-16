@@ -57,6 +57,14 @@ const Div = styled.div`
         cursor: pointer;
     }
 
+    .link {
+        text-decoration: none;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+    }
+
     .mConta {
         font-weight: bolder;
         font-size: 20px;

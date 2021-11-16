@@ -1,5 +1,7 @@
 import { Div } from './styled';
 
+import { Link } from 'react-router-dom';
+
 export default function dados() {
     return (
         <Div>
@@ -28,17 +30,23 @@ export default function dados() {
                             </div>
                         </div>
                         
-                        <div className="mConta">
-                            Minha Conta
-                        </div>
+                        <Link className="link" to='/minha-conta'>
+                            <div className="mConta">
+                                Minha Conta
+                            </div>
+                        </Link>
 
-                        <div className="mConta">
-                            Meus Perdidos
-                        </div>
+                        <Link className="link" to='/meus-pedidos'>
+                            <div className="mConta">
+                                Meus Perdidos
+                            </div>
+                        </Link>
 
-                        <div className="mConta">
-                            Lista De Desejos
-                        </div>
+                        <Link className="link" to='/lista-de-desejos'>
+                            <div className="mConta">
+                                Lista De Desejos
+                            </div>
+                        </Link>
                     </div>
                 </div>
             </div>
