@@ -7,7 +7,9 @@ const Div = styled.div`
     }
 
     .inp input {
-        padding: 7px 250px;
+        padding: 7px 500px 7px 5px;
+
+        outline: none;
     }
 
     .inp input:hover {
