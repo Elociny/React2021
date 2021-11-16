@@ -1,6 +1,15 @@
 import styled from "styled-components"; 
 
 const Div = styled.div`
+    .link {
+        text-decoration: none;
+    }
+
+    .link:hover {
+        text-decoration: underline;
+        color: #353535;
+    }
+
     .f1-caixa {
         text-align: center;
 

@@ -1,6 +1,8 @@
 import { Div } from './styled';
 import Titulo from '../titulo/index';
 
+import { Link } from 'react-router-dom';
+
 export default function cabecalho() {
     return (
         <Div>
@@ -13,9 +15,11 @@ export default function cabecalho() {
                     </div>
 
                     <div className="botao">
-                        <button>
-                            <img src="/assets/images/VectorFavoritos.png" alt="" />
-                        </button>
+                        <Link className="link" to='/lista-de-desejos'>
+                            <button>
+                                <img src="/assets/images/VectorFavoritos.png" alt="" />
+                            </button>
+                        </Link>
                     </div>
 
                     <div className="botao">
@@ -25,9 +29,11 @@ export default function cabecalho() {
                     </div>
 
                     <div className="botao">
-                        <button>
-                            <img src="/assets/images/Perfil.png" alt="" />
-                        </button>
+                        <Link className="link" to='/minha-conta'>
+                            <button>
+                                <img src="/assets/images/Perfil.png" alt="" />
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

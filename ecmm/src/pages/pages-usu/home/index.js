@@ -22,7 +22,7 @@ export default function home() {
                             <div class="opcoes">
                                 <div class="op1">
                                     <Link className="link" to='/feminino'>
-                                    Feminino
+                                        Feminino
                                     </Link>
                                 </div>
 
